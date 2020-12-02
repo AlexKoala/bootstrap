@@ -9,16 +9,16 @@ layout: home
         {% include icons/bootstrap-stack.svg width="512" height="430" class="img-fluid mb-3 mb-md-0" %}
       </div>
       <div class="col-md-8 order-md-1 text-center text-md-left pr-md-5">
-        <h1 class="mb-3">Build fast, responsive sites with Bootstrap</h1>
+        <h1 class="mb-3">Bootstrap으로 빠르고 반응형인 사이트를 만들어보세요</h1>
         <p class="lead mb-4">
-          Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.
+          세계에서 가장 인기 있는 프론트엔드 오픈 소스 툴킷이며 Sass 변수와 믹신, 반응형 그리드 시스템, 광범위한 사전 제작된 컴포넌트, 그리고 강력한 JavaScript 플러그인이 있는 Bootstrap으로 반응형 모바일 우선 사이트를 디자인하고 커스터마이징하세요.
         </p>
         <div class="d-flex flex-column flex-md-row">
-          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/" class="btn btn-lg btn-bd-primary mb-3 mr-md-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">Get started</a>
-          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/" class="btn btn-lg btn-outline-secondary mb-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">Download</a>
+          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/" class="btn btn-lg btn-bd-primary mb-3 mr-md-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Get started', 'Get started');">시작하기</a>
+          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/" class="btn btn-lg btn-outline-secondary mb-3" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download {{ site.current_version }}');">다운로드</a>
         </div>
         <p class="text-muted mb-0">
-          Currently v{{ site.current_version }}
+          현재 v{{ site.current_version }}
         </p>
       </div>
     </div>
@@ -33,19 +33,19 @@ layout: home
         <div class="masthead-followup-icon d-inline-block mb-2 text-white bg-success">
           {% include icons/code.svg width="32" height="32" class="masthead-followup-svg" %}
         </div>
-        <h2>Installation</h2>
+        <h2>설치</h2>
         <p class="lead font-weight-normal">
-          Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.
+          npm, Composer, Meteor를 통해서 Bootstrap의 Sass 및 JavaScript 소스 파일을 설치하세요.
         </p>
-        <p>Package managed installs don’t include documentation or our full build scripts. You can also <a href="https://github.com/twbs/bootstrap-npm-starter">use our npm template repo</a> to quickly generate a Bootstrap project via npm.</p>
-        <a class="btn btn-lg btn-outline-primary mb-3" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/">Read installation docs</a>
+        <p>패키지 관리를 통한 설치에는 문서 또는 전체 빌드 스크립트가 포함되어 있지 않습니다. 또한 <a href="https://github.com/twbs/bootstrap-npm-starter">우리의 npm 템플릿 저장소를 사용해서</a> npm으로 Bootstrap 프로젝트를 빠르게 생성할 수 있습니다.</p>
+        <a class="btn btn-lg btn-outline-primary mb-3" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/download/">설치 문서 읽어보기</a>
       </div>
       <div class="col-md-7 pl-md-5">
 {% highlight sh %}
-# Via npm
+# npm 사용 시
 npm install bootstrap
 
-# Via gem
+# gem 사용 시
 gem install bootstrap -v {{ site.current_ruby_version }}
 {% endhighlight %}
       </div>
@@ -58,12 +58,12 @@ gem install bootstrap -v {{ site.current_ruby_version }}
         </div>
         <h2>BootstrapCDN</h2>
         <p class="lead font-weight-normal">
-          When you only need to include Bootstrap’s compiled CSS or JS, you can use <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>.
+          컴파일된 Bootstrap CSS 또는 JS가 필요하다면 <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>를 사용할 수도 있습니다..
         </p>
         <p>
-          See it in action with our simple <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/#starter-template">starter template</a>, or <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/examples/">browse the examples</a> to jumpstart your next project. You can also choose to include Popper.js and our JS <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/#separate">separately</a>.
+          <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/#starter-template">스타터 템플릿</a>을 통해서 직접 확인해보거나 <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/examples/">예제를 탐색해서</a> 다음 프로젝트를 먼저 시작하세요. 또한 Popper.js와 우리의 JS를 <a href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/#separate">따로</a>분리해서 선택할 수 있습니다.
         </p>
-        <a class="btn btn-lg btn-outline-primary mb-3" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/layout/overview/">Explore the docs</a>
+        <a class="btn btn-lg btn-outline-primary mb-3" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/layout/overview/">문서 탐색하기</a>
       </div>
       <div class="col-md-7 pl-md-5">
 {% highlight html %}
@@ -84,12 +84,12 @@ gem install bootstrap -v {{ site.current_ruby_version }}
         </div>
         <h2>Bootstrap Icons</h2>
         <p class="lead font-weight-normal">
-          For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.
+          처음으로 Bootstrap만의 고유한 오픈 소스 SVG 아이콘 라이브러리가 생겼습니다. 컴포넌트 및 문서와 가장 잘 작동하도록 설계되었습니다.
         </p>
         <p>
-          Bootstrap Icons are designed to work best with Bootstrap components, but they’ll work in any project. They’re SVGs, so they scale quickly and easily, can be implemented in several ways, and can be styled with CSS.
+          Bootstrap Icons는 Bootstrap 컴포넌트와 가장 잘 작동하도록 설계되었지만 다른 모든 프로젝트에서도 작동합니다. SVG이기 때문에 쉽고 빠르게 크기를 조절할 수 있고, 여러 방법으로 삽입할 수 있고, CSS로 꾸밀 수 있습니다.
         </p>
-        <a href="{{ site.icons }}" class="btn btn-lg btn-outline-primary mb-3">Get Bootstrap Icons</a>
+        <a href="{{ site.icons }}" class="btn btn-lg btn-outline-primary mb-3">Bootstrap Icons 다운로드</a>
       </div>
       <div class="col-md-7 pl-md-5">
         <img class="img-fluid mt-3 mx-auto" srcset="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-icons.png,
@@ -104,14 +104,14 @@ gem install bootstrap -v {{ site.current_ruby_version }}
         <div class="masthead-followup-icon d-inline-block mb-2 text-white bg-danger">
           {% include icons/droplet-fill.svg width="32" height="32" class="masthead-followup-svg" %}
         </div>
-        <h2>Official Themes</h2>
+        <h2>공식 테마</h2>
         <p class="lead font-weight-normal">
-          Take Bootstrap to the next level with premium themes from the <a href="{{ site.themes }}">official Bootstrap Themes marketplace</a>.
+          <a href="{{ site.themes }}">Bootstrap 공식 테마 마켓플레이스</a>의 프리미엄 테마를 통해서 Bootstrap를 다음 단계로 올려놓으세요.
         </p>
         <p>
-          Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and powerful build tools.
+          테마는 Bootstrap을 기반으로 확장된 고유의 프레임워크, 풍부한 새로운 컴포넌트 및 플러그인, 문서, 강력한 빌드 도구로 만들어졌습니다.
         </p>
-        <a href="{{ site.themes }}" class="btn btn-lg btn-outline-primary mb-3">Browse themes</a>
+        <a href="{{ site.themes }}" class="btn btn-lg btn-outline-primary mb-3">테마 탐색하기</a>
       </div>
       <div class="col-md-7 pl-md-5">
         <img class="img-fluid mt-3 mx-auto" srcset="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/img/bootstrap-themes.png,

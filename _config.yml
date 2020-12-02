@@ -14,7 +14,7 @@ destination:    ./_gh_pages
 host:           "localhost"
 port:           9001
 baseurl:        ""
-url:            "https://getbootstrap.com"
+url:            "https://getbootstrap.kr"
 encoding:       UTF-8
 exclude:
   - docs/4.5/assets/scss/
@@ -29,9 +29,9 @@ redirect_from:
 
 # Social
 title:              Bootstrap
-description:        "The most popular HTML, CSS, and JS library in the world."
+description:        "세계에서 가장 인기 있는 HTML, CSS, JS 라이브러리."
 twitter:            getbootstrap
-authors:            "Mark Otto, Jacob Thornton, and Bootstrap contributors"
+authors:            "Mark Otto, Jacob Thornton, 그리고 Bootstrap 기여자들"
 social_image_path:  /docs/4.5/assets/brand/bootstrap-social.png
 social_logo_path:   /docs/4.5/assets/brand/bootstrap-social-logo.png
 
